@@ -1,0 +1,83 @@
+# Subtest: confirmed past pickup stays pickup due, even after its planned return, until actual handover
+ok 1 - confirmed past pickup stays pickup due, even after its planned return, until actual handover
+# Subtest: only actual pickup makes a confirmed booking ongoing and drafts never become pickup due
+ok 2 - only actual pickup makes a confirmed booking ongoing and drafts never become pickup due
+# Subtest: drafts appear as quotations without becoming the fleet card's active rental
+ok 3 - drafts appear as quotations without becoming the fleet card's active rental
+# Subtest: confirmed rental remains visible even when a newer quotation exists
+ok 4 - confirmed rental remains visible even when a newer quotation exists
+# Subtest: confirmed Odoo quotation stays nonblocking until booking confirmation
+ok 5 - confirmed Odoo quotation stays nonblocking until booking confirmation
+# Subtest: returned, cancelled and other vehicles' bookings are ignored
+ok 6 - returned, cancelled and other vehicles' bookings are ignored
+# Subtest: overdue rental is visible ahead of an upcoming booking
+ok 7 - overdue rental is visible ahead of an upcoming booking
+# Subtest: selection does not reorder the shared sales array
+ok 8 - selection does not reorder the shared sales array
+# Subtest: return carries the selected booking, mileage, notes and chosen operational state
+ok 9 - return carries the selected booking, mileage, notes and chosen operational state
+# Subtest: blank, decreasing and non-finite odometer readings cannot submit
+ok 10 - blank, decreasing and non-finite odometer readings cannot submit
+# Subtest: equal reading is valid for a retry or a rental with no distance travelled
+ok 11 - equal reading is valid for a retry or a rental with no distance travelled
+# Subtest: missing or invalid booking selection cannot return a different booking implicitly
+ok 12 - missing or invalid booking selection cannot return a different booking implicitly
+# Subtest: notes remain plain text and are bounded
+ok 13 - notes remain plain text and are bounded
+# Subtest: odometer unit follows the vehicle instead of converting its reading
+ok 14 - odometer unit follows the vehicle instead of converting its reading
+# Subtest: a legacy pending return with no mileage resumes its saved values
+ok 15 - a legacy pending return with no mileage resumes its saved values
+# Subtest: a pending return cannot switch booking or lower an advanced reading
+ok 16 - a pending return cannot switch booking or lower an advanced reading
+# Subtest: invalid saved vehicle mileage is rejected
+ok 17 - invalid saved vehicle mileage is rejected
+# Subtest: shared light-mode text and accent tokens meet 4.5:1 on page/card/form surfaces
+ok 18 - shared light-mode text and accent tokens meet 4.5:1 on page/card/form surfaces
+# Subtest: every semantic status and to-do token has readable light-mode text
+ok 19 - every semantic status and to-do token has readable light-mode text
+# Subtest: legacy colored text across all app pages/components has a light-mode override
+ok 20 - legacy colored text across all app pages/components has a light-mode override
+# Subtest: booking progress explicitly uses black text in light mode and blue action fills stay legible
+ok 21 - booking progress explicitly uses black text in light mode and blue action fills stay legible
+# Subtest: Economy keeps LOC-ECO and DEP-ECO type matches while OPT products stay extras
+not ok 22 - Economy keeps LOC-ECO and DEP-ECO type matches while OPT products stay extras
+# Subtest: French workflow labels and dates translate while client and product data stay intact
+not ok 23 - French workflow labels and dates translate while client and product data stay intact
+# Subtest: React updates to placeholders and accessibility labels survive locale changes
+not ok 24 - React updates to placeholders and accessibility labels survive locale changes
+# Subtest: translation protects editable textarea contents and preserves updated React text
+not ok 25 - translation protects editable textarea contents and preserves updated React text
+# Subtest: attention text and notification counts stay legible on their colored backgrounds
+ok 26 - attention text and notification counts stay legible on their colored backgrounds
+# Subtest: renewals appear in Upcoming even when the same vehicle has missing or unverified scans
+ok 27 - renewals appear in Upcoming even when the same vehicle has missing or unverified scans
+# Subtest: fleet maintenance state, services and oil-change reminders belong to Maintenance
+ok 28 - fleet maintenance state, services and oil-change reminders belong to Maintenance
+# Subtest: cleared reminders do not leave empty counts or phantom alerts
+ok 29 - cleared reminders do not leave empty counts or phantom alerts
+# Subtest: reject mismatched environment and missing secrets
+ok 30 - reject mismatched environment and missing secrets
+# Subtest: development cannot proxy production or arbitrary remote origins
+ok 31 - development cannot proxy production or arbitrary remote origins
+# Subtest: same-site staging cannot make production mutations
+ok 32 - same-site staging cannot make production mutations
+# Subtest: proxy cannot forward admin paths, traversal, encoded slashes or arbitrary URLs
+ok 33 - proxy cannot forward admin paths, traversal, encoded slashes or arbitrary URLs
+# Subtest: cookies cannot be shared with another environment or read by JavaScript
+ok 34 - cookies cannot be shared with another environment or read by JavaScript
+# Subtest: body limit also applies to bodies without content-length
+ok 35 - body limit also applies to bodies without content-length
+# Subtest: workspaces preserve existing and nested rental journeys
+ok 36 - workspaces preserve existing and nested rental journeys
+# Subtest: vehicle and care deep links select Fleet; business figures select Management
+ok 37 - vehicle and care deep links select Fleet; business figures select Management
+1..37
+# tests 37
+# suites 0
+# pass 33
+# fail 4
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 228.6751

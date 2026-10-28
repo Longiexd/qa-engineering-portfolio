@@ -1,0 +1,129 @@
+# Subtest: staging correct configuration is accepted
+ok 1 - staging correct configuration is accepted
+# Subtest: staging rejects incorrect name
+ok 2 - staging rejects incorrect name
+# Subtest: staging rejects incorrect routes
+ok 3 - staging rejects incorrect routes
+# Subtest: staging rejects incorrect vars
+ok 4 - staging rejects incorrect vars
+# Subtest: staging rejects incorrect workers_dev
+ok 5 - staging rejects incorrect workers_dev
+# Subtest: staging rejects incorrect preview_urls
+ok 6 - staging rejects incorrect preview_urls
+# Subtest: production correct configuration is accepted
+ok 7 - production correct configuration is accepted
+# Subtest: production rejects incorrect name
+ok 8 - production rejects incorrect name
+# Subtest: production rejects incorrect routes
+ok 9 - production rejects incorrect routes
+# Subtest: production rejects incorrect vars
+ok 10 - production rejects incorrect vars
+# Subtest: production rejects incorrect workers_dev
+ok 11 - production rejects incorrect workers_dev
+# Subtest: production rejects incorrect preview_urls
+ok 12 - production rejects incorrect preview_urls
+# Subtest: unknown environments fail closed
+ok 13 - unknown environments fail closed
+# Subtest: part payment confirms its own step without marking documents or pickup complete
+ok 14 - part payment confirms its own step without marking documents or pickup complete
+# Subtest: cancelled and returned bookings do not show a next actionable step
+ok 15 - cancelled and returned bookings do not show a next actionable step
+# Subtest: missing payment leads to payments rather than full-payment requirement after a deposit
+ok 16 - missing payment leads to payments rather than full-payment requirement after a deposit
+# Subtest: invoice meter handles partial, full, excess, zero, draft and credit balances
+ok 17 - invoice meter handles partial, full, excess, zero, draft and credit balances
+# Subtest: rental billing counts elapsed days with a one-day minimum across date boundaries
+ok 18 - rental billing counts elapsed days with a one-day minimum across date boundaries
+# Subtest: verified documents do not claim a contract can be generated before booking confirmation
+ok 19 - verified documents do not claim a contract can be generated before booking confirmation
+# Subtest: confirmed booking enables contract preparation only with verified driver documents
+ok 20 - confirmed booking enables contract preparation only with verified driver documents
+# Subtest: an archived rental can still open its saved contract without re-verifying current documents
+ok 21 - an archived rental can still open its saved contract without re-verifying current documents
+# Subtest: booking confirmation guidance remains French when driver documents are incomplete
+ok 22 - booking confirmation guidance remains French when driver documents are incomplete
+# Subtest: confirmed past pickup stays pickup due, even after its planned return, until actual handover
+ok 23 - confirmed past pickup stays pickup due, even after its planned return, until actual handover
+# Subtest: only actual pickup makes a confirmed booking ongoing and drafts never become pickup due
+ok 24 - only actual pickup makes a confirmed booking ongoing and drafts never become pickup due
+# Subtest: drafts appear as quotations without becoming the fleet card's active rental
+ok 25 - drafts appear as quotations without becoming the fleet card's active rental
+# Subtest: confirmed rental remains visible even when a newer quotation exists
+ok 26 - confirmed rental remains visible even when a newer quotation exists
+# Subtest: confirmed Odoo quotation stays nonblocking until booking confirmation
+ok 27 - confirmed Odoo quotation stays nonblocking until booking confirmation
+# Subtest: returned, cancelled and other vehicles' bookings are ignored
+ok 28 - returned, cancelled and other vehicles' bookings are ignored
+# Subtest: overdue rental is visible ahead of an upcoming booking
+ok 29 - overdue rental is visible ahead of an upcoming booking
+# Subtest: selection does not reorder the shared sales array
+ok 30 - selection does not reorder the shared sales array
+# Subtest: return carries the selected booking, mileage, notes and chosen operational state
+ok 31 - return carries the selected booking, mileage, notes and chosen operational state
+# Subtest: blank, decreasing and non-finite odometer readings cannot submit
+ok 32 - blank, decreasing and non-finite odometer readings cannot submit
+# Subtest: equal reading is valid for a retry or a rental with no distance travelled
+ok 33 - equal reading is valid for a retry or a rental with no distance travelled
+# Subtest: missing or invalid booking selection cannot return a different booking implicitly
+ok 34 - missing or invalid booking selection cannot return a different booking implicitly
+# Subtest: notes remain plain text and are bounded
+ok 35 - notes remain plain text and are bounded
+# Subtest: odometer unit follows the vehicle instead of converting its reading
+ok 36 - odometer unit follows the vehicle instead of converting its reading
+# Subtest: a legacy pending return with no mileage resumes its saved values
+ok 37 - a legacy pending return with no mileage resumes its saved values
+# Subtest: a pending return cannot switch booking or lower an advanced reading
+ok 38 - a pending return cannot switch booking or lower an advanced reading
+# Subtest: invalid saved vehicle mileage is rejected
+ok 39 - invalid saved vehicle mileage is rejected
+# Subtest: shared light-mode text and accent tokens meet 4.5:1 on page/card/form surfaces
+ok 40 - shared light-mode text and accent tokens meet 4.5:1 on page/card/form surfaces
+# Subtest: every semantic status and to-do token has readable light-mode text
+ok 41 - every semantic status and to-do token has readable light-mode text
+# Subtest: legacy colored text across all app pages/components has a light-mode override
+ok 42 - legacy colored text across all app pages/components has a light-mode override
+# Subtest: blue and lime action fills stay legible in light mode
+ok 43 - blue and lime action fills stay legible in light mode
+# Subtest: Economy keeps LOC-ECO and DEP-ECO type matches while OPT products stay extras
+ok 44 - Economy keeps LOC-ECO and DEP-ECO type matches while OPT products stay extras
+# Subtest: French workflow labels and dates translate while client and product data stay intact
+ok 45 - French workflow labels and dates translate while client and product data stay intact
+# Subtest: React updates to placeholders and accessibility labels survive locale changes
+ok 46 - React updates to placeholders and accessibility labels survive locale changes
+# Subtest: translation protects editable textarea contents and preserves updated React text
+ok 47 - translation protects editable textarea contents and preserves updated React text
+# Subtest: attention text and notification counts stay legible on their colored backgrounds
+ok 48 - attention text and notification counts stay legible on their colored backgrounds
+# Subtest: renewals appear in Upcoming even when the same vehicle has missing or unverified scans
+ok 49 - renewals appear in Upcoming even when the same vehicle has missing or unverified scans
+# Subtest: fleet maintenance state, services and oil-change reminders belong to Maintenance
+ok 50 - fleet maintenance state, services and oil-change reminders belong to Maintenance
+# Subtest: cleared reminders do not leave empty counts or phantom alerts
+ok 51 - cleared reminders do not leave empty counts or phantom alerts
+# Subtest: reject mismatched environment and missing secrets
+ok 52 - reject mismatched environment and missing secrets
+# Subtest: development cannot proxy production or arbitrary remote origins
+ok 53 - development cannot proxy production or arbitrary remote origins
+# Subtest: same-site staging cannot make production mutations
+ok 54 - same-site staging cannot make production mutations
+# Subtest: proxy cannot forward admin paths, traversal, encoded slashes or arbitrary URLs
+ok 55 - proxy cannot forward admin paths, traversal, encoded slashes or arbitrary URLs
+# Subtest: cookies cannot be shared with another environment or read by JavaScript
+ok 56 - cookies cannot be shared with another environment or read by JavaScript
+# Subtest: body limit also applies to bodies without content-length
+ok 57 - body limit also applies to bodies without content-length
+# Subtest: workspaces preserve existing and nested rental journeys
+ok 58 - workspaces preserve existing and nested rental journeys
+# Subtest: vehicle and care deep links select Fleet; business figures select Management
+ok 59 - vehicle and care deep links select Fleet; business figures select Management
+# Subtest: feature gates preserve basic fleet and manual rental routes
+ok 60 - feature gates preserve basic fleet and manual rental routes
+1..60
+# tests 60
+# suites 0
+# pass 60
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1424.1297

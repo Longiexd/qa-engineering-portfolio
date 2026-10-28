@@ -1,0 +1,24 @@
+[
+  "theme and language toggles; theme persists after reload",
+  "five operational pages in both themes",
+  {
+    "mobileWidth": {
+      "viewport": 390,
+      "body": 390
+    }
+  },
+  {
+    "blockedStorage": []
+  },
+  {
+    "loginError": {
+      "color": "rgb(190, 18, 60)",
+      "background": "rgb(255, 241, 242)"
+    }
+  },
+  "valid login, logout, protected-page redirect",
+  {
+    "pageErrors": [],
+    "apiRequests": 298
+  }
+]
