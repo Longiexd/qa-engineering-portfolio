@@ -1,0 +1,2 @@
+Historical retained log summary; exact build/date not embedded.
+88 passed, 1 warning in 6.77s

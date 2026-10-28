@@ -1,0 +1,7 @@
+Historical retained log summary; exact build/date not embedded.
+# tests 19
+# pass 19
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0

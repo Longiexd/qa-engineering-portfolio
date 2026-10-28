@@ -16,3 +16,17 @@ Private source fingerprints are retained in the local compilation record, outsid
 ## Limits
 
 This is a recovered sample of available history, not an exhaustive audit of every month of work. Historical assistant summaries establish that checks were reported; retained raw logs provide stronger execution evidence. The portfolio does not claim those checks were rerun during documentation assembly.
+
+## Expanded recovery
+
+E07: “Improve rental booking workflow” — 14–15 September summaries, including three reproduced regressions against b0c079c.
+
+E08: “Fix Klynx staging login” — 2–3 October diagnostic checkpoints; successful direct API login, Worker failures, endpoint/network mismatch and privileged-account rejection.
+
+E09: “Assess multi-tenant deployment” — architecture review, provisioning corrections, smoke-test defects and a later registry redesign with skipped integration checks.
+
+E10: “Fix Klynx OS rental workflows” — fleet lifecycle, paperwork, test-fixture correction and deployment recovery checkpoints.
+
+E11: Retained tenancy/provisioning/calendar regression source and log summaries. The retained backend log records 88 passes; a separate security log records 19 passes. Build/date are not embedded, so these logs are not tied to a specific deployed release.
+
+The exact chat named “Implement booking workflow” was not found in the accessible local index. Related booking discussions above were recovered; exhaustive recovery is not claimed.

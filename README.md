@@ -24,3 +24,7 @@ Application stack encountered: TypeScript/Next.js, Python/FastAPI, Odoo, Postgre
 The 28 October 2026 historical staging assessment identified **four functional defects** and a separate branding-copy observation. Local source checks were reported as **517 backend/deployment tests passed, 13 skipped, 11 subtests passed, 84 frontend tests passed**, with TypeScript checking successful. These are historical results, not a new run or a cumulative career total. Live refund settlement and cross-company isolation remained unverified.
 
 See [test strategy](docs/projects/rental-os/test-strategy.md), [traceability](docs/projects/rental-os/traceability.md), [documentation setup](docs/gitbook-setup.md), and [contribution guidance](CONTRIBUTING.md).
+
+## Expanded historical evidence
+
+Explore [booking, login and multi-tenant debugging](docs/projects/rental-os/deep-history/README.md) and the [existing automated regression inventory](docs/projects/rental-os/automation/README.md). These distinguish historical product failures, test-harness defects, expected security rejection and unverified integration work.
