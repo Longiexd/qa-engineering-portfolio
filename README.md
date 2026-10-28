@@ -1,10 +1,20 @@
 # Sara Longo | QA Engineering Portfolio
 
+[![API automation](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml/badge.svg)](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml)
+
+[![API automation](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml/badge.svg)](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml)
+
 Evidence-led software testing for a connected rental management platform.
 
 I build and test Klynx Rental OS, connecting rental operations, customer records, fleet readiness and financial reporting. This portfolio documents AI-assisted development and QA work on my own application. Historical agent-executed checks are identified as such; it does not claim independent commercial QA employment or unaided authorship of every test.
 
 ## Start here
+
+**Executable project:** [Public API automation — 12 Playwright tests](web-automation-demo/README.md), with GitHub Actions and downloadable HTML/JUnit reports.
+
+
+**Executable project:** [Public API automation — 12 Playwright tests](web-automation-demo/README.md), with GitHub Actions and downloadable HTML/JUnit reports.
+
 
 1. [Case study: financial correctness and operational consistency](docs/projects/rental-os/case-study.md)
 2. [Latest test summary and release recommendation](docs/projects/rental-os/test-summary.md)
@@ -28,3 +38,19 @@ See [test strategy](docs/projects/rental-os/test-strategy.md), [traceability](do
 ## Expanded historical evidence
 
 Explore [booking, login and multi-tenant debugging](docs/projects/rental-os/deep-history/README.md) and the [existing automated regression inventory](docs/projects/rental-os/automation/README.md). These distinguish historical product failures, test-harness defects, expected security rejection and unverified integration work.
+
+## About me and practical skills
+
+I’m Sara Longo, building experience in QA through my own rental management application. My work combines functional exploration, regression analysis, API assertions, defect reporting and release checks. This portfolio now includes executable Playwright API tests and GitHub Actions report generation.
+
+Skills evidenced here: test design, negative and boundary testing, API response validation, Playwright, JavaScript, pytest result analysis, Git/GitHub and CI workflows. SQL verification, browser UI automation and formal certifications should be added as demonstrated projects or earned qualifications; no ISTQB certification is claimed.
+
+[GitHub profile](https://github.com/Longiexd). LinkedIn and a public contact email are awaiting owner-provided details.
+
+## About me and practical skills
+
+I’m Sara Longo, building experience in QA through my own rental management application. My work combines functional exploration, regression analysis, API assertions, defect reporting and release checks. This portfolio now includes executable Playwright API tests and GitHub Actions report generation.
+
+Skills evidenced here: test design, negative and boundary testing, API response validation, Playwright, JavaScript, pytest result analysis, Git/GitHub and CI workflows. SQL verification, browser UI automation and formal certifications should be added as demonstrated projects or earned qualifications; no ISTQB certification is claimed.
+
+[GitHub profile](https://github.com/Longiexd). LinkedIn and a public contact email are awaiting owner-provided details.
