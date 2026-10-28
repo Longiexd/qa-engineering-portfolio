@@ -13,9 +13,6 @@ I build and test Klynx Rental OS, connecting rental operations, customer records
 **Executable project:** [Public API automation — 12 Playwright tests](web-automation-demo/README.md), with GitHub Actions and downloadable HTML/JUnit reports.
 
 
-**Executable project:** [Public API automation — 12 Playwright tests](web-automation-demo/README.md), with GitHub Actions and downloadable HTML/JUnit reports.
-
-
 1. [Case study: financial correctness and operational consistency](docs/projects/rental-os/case-study.md)
 2. [Latest test summary and release recommendation](docs/projects/rental-os/test-summary.md)
 3. [Individual test cases](docs/projects/rental-os/test-cases/README.md)
