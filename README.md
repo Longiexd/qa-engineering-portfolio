@@ -2,8 +2,6 @@
 
 [![API automation](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml/badge.svg)](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml)
 
-[![API automation](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml/badge.svg)](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml)
-
 Evidence-led software testing for a connected rental management platform.
 
 I build and test Klynx Rental OS, connecting rental operations, customer records, fleet readiness and financial reporting. This portfolio documents AI-assisted development and QA work on my own application. Historical agent-executed checks are identified as such; it does not claim independent commercial QA employment or unaided authorship of every test.
