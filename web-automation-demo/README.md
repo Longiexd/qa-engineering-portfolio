@@ -1,6 +1,6 @@
 # Public API automation demo
 
-Seventeen executable Playwright API checks and one Chromium login/cart test against JSONPlaceholder: response contracts, identifiers, empty states, filters, nested relationships and negative lookup behavior. API coverage includes simulated POST/PUT/DELETE and read-only GET requests. The SauceDemo browser case uses its public demo login; no checkout or purchase is performed.
+Seventeen executable Playwright API checks and four Chromium browser tests against JSONPlaceholder: response contracts, identifiers, empty states, filters, nested relationships and negative lookup behavior. API coverage includes simulated POST/PUT/DELETE and read-only GET requests. The SauceDemo browser case uses its public demo login; no checkout or purchase is performed.
 
 ## Run
 
@@ -17,7 +17,7 @@ HTML and JUnit reports are generated on every run. GitHub Actions uploads them a
 
 ## One-page test plan
 
-**Objective:** Verify the documented read API and consistency across collection, detail, filtered and nested routes. **Target:** JSONPlaceholder public demonstration service. **Scope:** GET routes for posts, comments, users, todos and photos. **Excluded:** production authentication, tenant authorization, durable writes and load testing. SauceDemo UI covers login and adding an item to cart. This public service does not demonstrate tenant security.
+**Objective:** Verify the documented read API and consistency across collection, detail, filtered and nested routes. **Target:** JSONPlaceholder public demonstration service. **Scope:** GET routes for posts, comments, users, todos and photos. **Excluded:** production authentication, tenant authorization, durable writes and load testing. SauceDemo UI covers valid/invalid login, cart addition/removal and price sorting. This public service does not demonstrate tenant security.
 
 **Risks:** response schema drift, incorrect filter results, mismatched parent relationships and misleading missing-record behavior. **Data:** stable demo IDs 1, user 1 and nonexistent ID 999999. **Entry:** network access and dependencies installed. **Exit:** all checks meet their stated outcome, with DEMO-01 explicitly tracked as an expected failure; any failure has a captured report and diagnosis. **Cleanup:** none; JSONPlaceholder writes are simulated and SauceDemo cart state stays in the isolated browser context. **Evidence:** HTML/JUnit artifacts and the CI run attached to the exact commit.
 

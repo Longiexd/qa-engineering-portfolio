@@ -1,43 +1,36 @@
 # Sara Longo | QA Engineering Portfolio
 
-[![API automation](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml/badge.svg)](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml)
+[![Test automation](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml/badge.svg)](https://github.com/Longiexd/qa-engineering-portfolio/actions/workflows/api-tests.yml)
 
-Evidence-led software testing for a connected rental management platform.
-
-I build and test Klynx Rental OS, connecting rental operations, customer records, fleet readiness and financial reporting. This portfolio documents AI-assisted development and QA work on my own application. Historical agent-executed checks are identified as such; it does not claim independent commercial QA employment or unaided authorship of every test.
+I test Klynx Rental OS, a rental management application I build. My work focuses on booking state transitions, financial reconciliation, input validation and regression testing.
 
 ## Start here
 
-**Executable project:** [Public API automation — Playwright API and browser tests](web-automation-demo/README.md), with GitHub Actions and downloadable HTML/JUnit reports.
+**[Executable automation: 17 API + 4 UI tests](web-automation-demo/README.md)** — Playwright, JavaScript, GitHub Actions, HTML and JUnit reports.
 
+**CI-verified baseline: 17 API + 1 UI test.** [Successful run at commit 4ef1ef1](https://github.com/Longiexd/qa-engineering-portfolio/actions/runs/40885606561). The additional invalid-login, cart-removal and sorting cases pass locally and await CI after upload. One API case is an expected failure for the documented [malformed-JSON response defect](web-automation-demo/DEMO-01.md).
 
-1. [Case study: financial correctness and operational consistency](docs/projects/rental-os/case-study.md)
-2. [Latest test summary and release recommendation](docs/projects/rental-os/test-summary.md)
-3. [Individual test cases](docs/projects/rental-os/test-cases/README.md)
-4. [Defect reports](docs/projects/rental-os/bugs/README.md)
-5. [Earlier debugging and regression history](docs/projects/rental-os/history.md)
-6. [Evidence register](docs/projects/rental-os/evidence.md)
+| Sample | What to inspect |
+|---|---|
+| [Automation code](web-automation-demo/tests/api.spec.js) | Response contracts, filters, write methods, invalid input and a request-time smoke budget |
+| [Browser tests](web-automation-demo/tests/ui.spec.js) | Login, cart contents, removal, invalid credentials and numeric sorting |
+| [Rental OS case study](docs/projects/rental-os/case-study.md) | Test approach, findings and release decision |
+| [Availability defect](docs/projects/rental-os/bugs/QA-01.md) | Cross-screen mismatch with original screenshot excerpts |
+| [Test cases](docs/projects/rental-os/test-cases/README.md) | Preconditions, test data, steps and expected results |
+| [Latest rental QA report](docs/projects/rental-os/test-summary.md) | Results, defects and outstanding integration coverage |
 
-## What this demonstrates
+## Skills demonstrated
 
-Risk-based test planning; exploratory testing; positive, negative and boundary scenarios; state-transition testing; financial reconciliation; regression analysis; defect triage; clear release reporting; collaboration with AI coding tools.
+Test design; exploratory, negative and boundary testing; API testing with Playwright; browser automation; JavaScript; pytest result analysis; GitHub Actions; defect reporting and requirements traceability.
 
-Application stack encountered: TypeScript/Next.js, Python/FastAPI, Odoo, PostgreSQL, Docker and GitHub Actions. Existing checks include pytest, Node test runner and TypeScript checking. GitBook-compatible Markdown provides version-controlled documentation.
+## Rental OS evidence
 
-## Evidence snapshot
+The 28 October staging assessment found four functional defects. Historical local checks recorded 517 backend/deployment passes, 13 skips and 84 frontend passes. These are separate suites, not a cumulative coverage total. Full deposit settlement and live cross-company checks remained outstanding.
 
-The 28 October 2026 historical staging assessment identified **four functional defects** and a separate branding-copy observation. Local source checks were reported as **517 backend/deployment tests passed, 13 skipped, 11 subtests passed, 84 frontend tests passed**, with TypeScript checking successful. These are historical results, not a new run or a cumulative career total. Live refund settlement and cross-company isolation remained unverified.
+Earlier work is documented in the [debugging register](docs/projects/rental-os/deep-history/README.md), [historical verification records](docs/projects/rental-os/history.md) and [evidence register](docs/projects/rental-os/evidence.md). The [automation inventory](docs/projects/rental-os/automation/README.md) describes retained private-project tests; the public executable examples are in web-automation-demo.
 
-See [test strategy](docs/projects/rental-os/test-strategy.md), [traceability](docs/projects/rental-os/traceability.md), [documentation setup](docs/gitbook-setup.md), and [contribution guidance](CONTRIBUTING.md).
+## About this work
 
-## Expanded historical evidence
+This is an own-application portfolio developed with AI assistance. Rental OS records were recovered from earlier reports, logs and discussions; the public automation has executable source and run reports. This portfolio does not represent employment or certification.
 
-Explore [booking, login and multi-tenant debugging](docs/projects/rental-os/deep-history/README.md) and the [existing automated regression inventory](docs/projects/rental-os/automation/README.md). These distinguish historical product failures, test-harness defects, expected security rejection and unverified integration work.
-
-## About me and practical skills
-
-I’m Sara Longo. I test and build Klynx Rental OS, with a focus on financial correctness, reliable booking workflows and clear defect reports.
-
-Practical skills demonstrated here: exploratory testing, boundary and negative testing, Playwright API automation, JavaScript, regression analysis, pytest result analysis, GitHub Actions and test documentation.
-
-[GitHub profile](https://github.com/Longiexd)
+[GitHub profile](https://github.com/Longiexd) · [Test strategy](docs/projects/rental-os/test-strategy.md) · [Traceability](docs/projects/rental-os/traceability.md) · [GitBook setup](docs/gitbook-setup.md) · [Changelog](CHANGELOG.md)
