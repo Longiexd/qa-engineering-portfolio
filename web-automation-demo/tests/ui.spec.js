@@ -14,15 +14,15 @@ test("UI-01 standard user logs in and adds one item to cart", async ({
   );
   await page.locator('[data-test="shopping-cart-link"]').click();
   await expect(page).toHaveURL(/cart.html$/);
-  await expect(page.locator('[data-test="inventory-item-name"]')).toHaveText(
+  const cart = page.locator('[data-test="cart-list"]');
+  await expect(cart).toBeVisible();
+  const items = cart.locator('[data-test="inventory-item"]');
+  await expect(items).toHaveCount(1);
+  await expect(items.locator('[data-test="inventory-item-name"]')).toHaveText(
     "Sauce Labs Backpack",
   );
-  await expect(page.locator('[data-test="inventory-item-price"]')).toHaveText(
+  await expect(items.locator('[data-test="inventory-item-price"]')).toHaveText(
     "$29.99",
   );
-  await page.screenshot({
-    path: test.info().outputPath("cart.png"),
-    fullPage: true,
-  });
-});
 
+});
