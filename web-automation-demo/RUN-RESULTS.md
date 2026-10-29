@@ -1,5 +1,11 @@
 # Execution evidence
 
-Date: 28 October 2026. Target: https://jsonplaceholder.typicode.com. Runner: Playwright 1.64.1. Command: `npm test`. Result: **12 passed, 0 failed**, in 2.8 seconds. All requests were read-only. This is local execution evidence; GitHub CI has not yet run.
+The previously uploaded 12-test API suite passed GitHub Actions on commit 7c01e30080fea41668b2f85c5bd8e23c0b4f326b.
 
-Open the supplied `playwright-report/index.html` for the HTML report, or inspect `test-results/results.xml` for JUnit results. Those generated files are excluded from Git; CI creates and uploads its own report artifact.
+[Verified successful CI run](https://github.com/Longiexd/qa-engineering-portfolio/actions/runs/40742866441)
+
+The expanded API and browser tests are a new revision. Their local execution is recorded below after validation; the successful linked CI run applies to the earlier revision.
+
+## Expanded local run — 29 October 2026
+
+`npm test` exited 0: 18 cases met their configured outcomes in 3.7 seconds. Seventeen passed normally; API-16 failed as expected for DEMO-01 (HTTP 500 instead of expected 400). The browser login/cart case passed. An earlier rerun exposed a cart-navigation assertion race; waiting for cart.html resolved it. HTML and JUnit reports contain the final run. The expanded revision has not yet run on GitHub.

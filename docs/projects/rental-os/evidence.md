@@ -11,7 +11,7 @@
 
 ## Integrity and public presentation
 
-Private source fingerprints are retained in the local compilation record, outside this repository. Raw staging screenshots are withheld because they contain operational records. Public reports replace record identifiers and do not include credentials, private target addresses or customer data. No recreated screenshot is represented as original evidence.
+Private source fingerprints are retained in the local compilation record, outside this repository. Full staging screenshots are withheld because they contain operational records. Three cropped original excerpts are published and linked from QA-01 and QA-04; only cropping was applied. Public reports replace record identifiers and do not include credentials, private target addresses or customer data. No recreated screenshot is represented as original evidence.
 
 ## Limits
 

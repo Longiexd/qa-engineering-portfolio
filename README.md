@@ -8,7 +8,7 @@ I build and test Klynx Rental OS, connecting rental operations, customer records
 
 ## Start here
 
-**Executable project:** [Public API automation — 12 Playwright tests](web-automation-demo/README.md), with GitHub Actions and downloadable HTML/JUnit reports.
+**Executable project:** [Public API automation — Playwright API and browser tests](web-automation-demo/README.md), with GitHub Actions and downloadable HTML/JUnit reports.
 
 
 1. [Case study: financial correctness and operational consistency](docs/projects/rental-os/case-study.md)
@@ -36,16 +36,8 @@ Explore [booking, login and multi-tenant debugging](docs/projects/rental-os/deep
 
 ## About me and practical skills
 
-I’m Sara Longo, building experience in QA through my own rental management application. My work combines functional exploration, regression analysis, API assertions, defect reporting and release checks. This portfolio now includes executable Playwright API tests and GitHub Actions report generation.
+I’m Sara Longo. I test and build Klynx Rental OS, with a focus on financial correctness, reliable booking workflows and clear defect reports.
 
-Skills evidenced here: test design, negative and boundary testing, API response validation, Playwright, JavaScript, pytest result analysis, Git/GitHub and CI workflows. SQL verification, browser UI automation and formal certifications should be added as demonstrated projects or earned qualifications; no ISTQB certification is claimed.
+Practical skills demonstrated here: exploratory testing, boundary and negative testing, Playwright API automation, JavaScript, regression analysis, pytest result analysis, GitHub Actions and test documentation.
 
-[GitHub profile](https://github.com/Longiexd). LinkedIn and a public contact email are awaiting owner-provided details.
-
-## About me and practical skills
-
-I’m Sara Longo, building experience in QA through my own rental management application. My work combines functional exploration, regression analysis, API assertions, defect reporting and release checks. This portfolio now includes executable Playwright API tests and GitHub Actions report generation.
-
-Skills evidenced here: test design, negative and boundary testing, API response validation, Playwright, JavaScript, pytest result analysis, Git/GitHub and CI workflows. SQL verification, browser UI automation and formal certifications should be added as demonstrated projects or earned qualifications; no ISTQB certification is claimed.
-
-[GitHub profile](https://github.com/Longiexd). LinkedIn and a public contact email are awaiting owner-provided details.
+[GitHub profile](https://github.com/Longiexd)
